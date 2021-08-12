@@ -6,8 +6,6 @@ public class SavingAccount extends Account {
 
     SavingAccount(String accountID, double balance) {
         super(accountID, balance);
-        Bank.listOfAccounts.add(accountID);
-
     }
 
     @Override

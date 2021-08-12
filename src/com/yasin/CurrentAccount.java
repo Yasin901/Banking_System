@@ -7,7 +7,6 @@ public class CurrentAccount extends Account {
     CurrentAccount(String accountID, double balance, int numberOfChecksUsed) {
         super(accountID, balance);
         this.numberOfChecksUsed = numberOfChecksUsed;
-        Bank.listOfAccounts.add(accountID);
     }
 
     @Override

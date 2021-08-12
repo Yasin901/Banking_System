@@ -8,6 +8,7 @@ public abstract class Account {
     Account(String accountID, double balance ) {
         this.accountID = accountID;
         this.balance = balance;
+        Bank.listOfAccounts.add(this);
 
     }
 
